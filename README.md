@@ -18,19 +18,21 @@ Technical Highlights: ``Python`` / ``Pandas`` / ``NumPy`` / ``Sklearn`` / ``Conv
 
 ---
 <h2>Content of Repository:</h2>
-  
-- <b>1_Explore_Social_Ratings.ipynb</b>: This notebook includes data cleaning, data exploration and principal compontent analysis (PCA) of the social ratings associated with the face images. 
 
-- <b>2_Explore_Facial_Images.ipynb</b>: This notebook includes data cleaning, data exploration and preprocessing (resizing, padding, conversion to grayscale) of the face images.
+The project is divided into several jupyter notebooks for easier workflow:
 
-- <b>3_Preprocess_images.ipynb</b>: This notebook includes further preprocessing (face extraction, PCA) of the face images for predictive modeling.
+- <b>1_Explore_Social_Ratings.ipynb</b>: includes data cleaning, data exploration and principal compontent analysis (PCA) of the social ratings associated with the face images. 
 
-- <b>4_Support_Vector_Machine.ipynb</b>: This notebook includes predictive modeling of social ratings using Support Vector Machines (SVMs) and grid search cross validation.
+- <b>2_Explore_Facial_Images.ipynb</b>: includes data cleaning, data exploration and preprocessing (resizing, padding, conversion to grayscale) of the face images.
 
-- <b>5_CNN_Train.ipynb</b>: This notebook includes predictive modeling of social ratings using Convolutional Neural Networks (CNNs) and transfer learning.
+- <b>3_Preprocess_images.ipynb</b>: includes further preprocessing (face extraction, PCA) of the face images for predictive modeling.
 
-- <b>6_CNN_Visualize.ipynb</b>: This notebook visualizes the most important facial features for predicting trustworthiness using methods like GradCAM and Guided Backpropagation. 
+- <b>4_Support_Vector_Machine.ipynb</b>: includes predictive modeling of social ratings using Support Vector Machines (SVMs) and grid search cross validation.
 
-- <b>7_Summarize_Results.ipynb</b>: This notebook summarizes predictive modeling results for the Support Vector Machines (SVMs) and Convolutional Neural Networks (CNNs).
+- <b>5_CNN_Train.ipynb</b>: includes predictive modeling of social ratings using Convolutional Neural Networks (CNNs) and transfer learning.
 
-- <b>8_Application.ipynb</b>: This notebook includes an application which predicts six social ratings (trustworthy, friendly, sociable, attractive, emotional, intelligent) from human face images.
+- <b>6_CNN_Visualize.ipynb</b>: visualizes the most important facial features for predicting trustworthiness using methods like GradCAM and Guided Backpropagation. 
+
+- <b>7_Summarize_Results.ipynb</b>: summarizes predictive modeling results for the Support Vector Machines (SVMs) and Convolutional Neural Networks (CNNs).
+
+- <b>8_Application.ipynb</b>: includes an application which predicts six social ratings (trustworthy, friendly, sociable, attractive, emotional, intelligent) from human face images.
